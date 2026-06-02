@@ -1,0 +1,16 @@
+# CI3 캐시 및 로그
+application/cache/*
+application/logs/*
+!application/cache/.gitkeep
+!application/logs/.gitkeep
+
+# 환경 설정
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
